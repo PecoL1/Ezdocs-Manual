@@ -1,0 +1,113 @@
+﻿TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority
+1,Manual,TC01 Verify numbering should be added for Manuscript in Printed document for CGL Domestic.,Verify numbering should be added for Manuscript in Printed document for CGL Domestic.,"1. Create the submission in UWD and fetch that submission in ezdocs Liability LOB.
+2. Select CGL Domestic product from product dropdown.
+3. Enter all Mandatory data and navigate to Forms section
+4. Click on Manuscript and add 2 Manuscript Forms
+5. Verify Manuscript forms should be numbered in Printed document for both english and French
+6.Select English language and click on preview button, document should be generated.
+7.Select French language and click on preview button, document should be generated.
+8.Click on Generate Quote w/o Document button and proceed for Binder transaction.
+9. In Binder, Verify the Manuscripts section in forms tab.
+10.Select English language and click on preview button, document should be generated.
+11.Select French language and click on preview button, document should be generated.
+12.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+13.In Policy, Verify the Manuscripts section in forms tab.
+14.Select French language and click on preview button, document should be generated.
+15.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+16.Click on Generate Policy w/o Document button. Policy should ge generated.
+",Manuscript forms should be numbered in Printed document for both english and French,BAU Dec 2025/EZ-243,Todo,EZ-243,
+2,Manual,TC02 Verify numbering should be added for Manuscript in Printed document for CGL International.,Verify numbering should be added for Manuscript in Printed document for CGL International.,"1. Create the submission in UWD and fetch that submission in ezdocs Liability LOB.
+2. Select CGL International product from product dropdown.
+3. Enter all Mandatory data and navigate to Forms section
+4. Click on Manuscript and add 2 Manuscript Forms
+5. Verify Manuscript forms should be numbered in Printed document for both english and French
+6.Select English language and click on preview button, document should be generated.
+7.Select French language and click on preview button, document should be generated.
+8.Click on Generate Quote w/o Document button and proceed for Binder transaction.
+9. In Binder, Verify the Manuscripts section in forms tab.
+10.Select English language and click on preview button, document should be generated.
+11.Select French language and click on preview button, document should be generated.
+12.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+13.In Policy, Verify the Manuscripts section in forms tab.
+14.Select French language and click on preview button, document should be generated.
+15.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+16.Click on Generate Policy w/o Document button. Policy should ge generated.
+",Manuscript forms should be numbered in Printed document for both english and French,BAU Dec 2025/EZ-243,Todo,EZ-243,
+3,Manual,TC03 Verify numbering should be added for Manuscript in Printed document for DGL Domestic.,Verify numbering should be added for Manuscript in Printed document for DGL Domestic.,"1. Create the submission in UWD and fetch that submission in ezdocs Liability LOB.
+2. Select DGL Domestic product from product dropdown.
+3. Enter all Mandatory data and navigate to Forms section
+4. Click on Manuscript and add 2 Manuscript Forms
+5. Verify Manuscript forms should be numbered in Printed document for both english and French
+6.Select English language and click on preview button, document should be generated.
+7.Select French language and click on preview button, document should be generated.
+8.Click on Generate Quote w/o Document button and proceed for Binder transaction.
+9. In Binder, Verify the Manuscripts section in forms tab.
+10.Select English language and click on preview button, document should be generated.
+11.Select French language and click on preview button, document should be generated.
+12.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+13.In Policy, Verify the Manuscripts section in forms tab.
+14.Select French language and click on preview button, document should be generated.
+15.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+16.Click on Generate Policy w/o Document button. Policy should ge generated.
+",Manuscript forms should be numbered in Printed document for both english and French,BAU Dec 2025/EZ-243,Todo,EZ-243,
+4,Manual,TC04 Verify numbering should be added for Manuscript in Printed document for Umbrella.,Verify numbering should be added for Manuscript in Printed document for Umbrella.,"1. Create the submission in UWD and fetch that submission in ezdocs Liability LOB.
+2. Select Umbrella product from product dropdown.
+3. Enter all Mandatory data and navigate to Forms section
+4. Click on Manuscript and add 2 Manuscript Forms
+5. Verify Manuscript forms should be numbered in Printed document for both english and French
+6.Select English language and click on preview button, document should be generated.
+7.Select French language and click on preview button, document should be generated.
+8.Click on Generate Quote w/o Document button and proceed for Binder transaction.
+9. In Binder, Verify the Manuscripts section in forms tab.
+10.Select English language and click on preview button, document should be generated.
+11.Select French language and click on preview button, document should be generated.
+12.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+13.In Policy, Verify the Manuscripts section in forms tab.
+14.Select French language and click on preview button, document should be generated.
+15.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+16.Click on Generate Policy w/o Document button. Policy should ge generated.
+",Manuscript forms should be numbered in Printed document for both english and French,BAU Dec 2025/EZ-243,Todo,EZ-243,
+5,Manual,TC05 Verify numbering should be added for Manuscript in Printed document for Excess.,Verify numbering should be added for Manuscript in Printed document for Excess.,"1. Create the submission in UWD and fetch that submission in ezdocs Liability LOB.
+2. Select Excess product from product dropdown.
+3. Enter all Mandatory data and navigate to Forms section
+4. Click on Manuscript and add 2 Manuscript Forms
+5. Verify Manuscript forms should be numbered in Printed document for both english and French
+6.Select English language and click on preview button, document should be generated.
+7.Select French language and click on preview button, document should be generated.
+8.Click on Generate Quote w/o Document button and proceed for Binder transaction.
+9. In Binder, Verify the Manuscripts section in forms tab.
+10.Select English language and click on preview button, document should be generated.
+11.Select French language and click on preview button, document should be generated.
+12.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+13.In Policy, Verify the Manuscripts section in forms tab.
+14.Select French language and click on preview button, document should be generated.
+15.Click on Generate Binder w/o Document button and proceed for Policy transaction.
+16.Click on Generate Policy w/o Document button. Policy should ge generated.
+",Manuscript forms should be numbered in Printed document for both english and French,BAU Dec 2025/EZ-243,Todo,EZ-243,
+6,Manual,TC06 Verify numbering should be added for Manuscript in Printed document for Received CGL Domestic.,Verify numbering should be added for Manuscript in Printed document for  Received CGL Domestic.,"1. Create the submission in Received Liability LOB.
+2. Select CGL Domestic product from product dropdown.
+3. Enter all Mandatory data and navigate to Forms section
+4. Click on Manuscript and add 2 Manuscript Forms
+5. Verify Manuscript forms should be numbered in Printed document for both english and French
+6.Select English language and click on preview button, document should be generated.
+7.Select French language and click on preview button, document should be generated.
+8.Click on Generate Quote w/o Document button. Policy should ge generated.
+",Manuscript forms should be numbered in Printed document for both english and French,BAU Dec 2025/EZ-243,Todo,EZ-243,
+7,Manual,TC07 Verify numbering should be added for Manuscript in Printed document for Received Umbrella.,Verify numbering should be added for Manuscript in Printed document for  Received Umbrella.,"1. Create the submission in Received Liability LOB.
+2. Select Umbrella product from product dropdown.
+3. Enter all Mandatory data and navigate to Forms section
+4. Click on Manuscript and add 2 Manuscript Forms
+5. Verify Manuscript forms should be numbered in Printed document for both english and French
+6.Select English language and click on preview button, document should be generated.
+7.Select French language and click on preview button, document should be generated.
+8.Click on Generate Quote w/o Document button. Policy should ge generated.
+",Manuscript forms should be numbered in Printed document for both english and French,BAU Dec 2025/EZ-243,Todo,EZ-243,
+8,Manual,TC08 Verify numbering should be added for Manuscript in Printed document for Received Excess.,Verify numbering should be added for Manuscript in Printed document for  Received Excess.,"1.Create the submission in Received Liability LOB.
+2. Select Excess product from product dropdown.
+3. Enter all Mandatory data and navigate to Forms section
+4. Click on Manuscript and add 2 Manuscript Forms
+5. Verify Manuscript forms should be numbered in Printed document for both english and French
+6.Select English language and click on preview button, document should be generated.
+7.Select French language and click on preview button, document should be generated.
+8.Click on Generate Quote w/o Document button. Policy should ge generated.
+",Manuscript forms should be numbered in Printed document for both english and French,BAU Dec 2025/EZ-243,Todo,EZ-243,
