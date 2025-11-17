@@ -1,0 +1,59 @@
+# Test Cases for User Story EZ-106
+
+## Positive Scenarios
+
+1. **Dropdown Selection**  
+   - **Test Case ID**: TC_EZ106_001  
+   - **Description**: Verify that the dropdown selection is functional.  
+   - **Expected Result**: User can successfully select options from the dropdown.
+
+2. **Default Value**  
+   - **Test Case ID**: TC_EZ106_002  
+   - **Description**: Validate that 'Last Month' is the default selection in the dropdown.  
+   - **Expected Result**: The selection should default to 'Last Month' upon loading the report.
+
+3. **Date Range Visibility**  
+   - **Test Case ID**: TC_EZ106_003  
+   - **Description**: Check visibility of the date range selection based on dropdown choice.  
+   - **Expected Result**: When 'Custom' is selected, date range fields should be visible; otherwise, they should be hidden.
+
+4. **Custom Date Selection**  
+   - **Test Case ID**: TC_EZ106_004  
+   - **Description**: Test selecting a custom date range.  
+   - **Expected Result**: User can select a date range of up to 3 months from the current date.
+
+5. **Tile-based Report UI**  
+   - **Test Case ID**: TC_EZ106_005  
+   - **Description**: Ensure the tile-based report UI is displayed correctly.  
+   - **Expected Result**: The UI should display reports in a tile format as expected.
+
+
+## Negative Scenarios
+
+1. **Invalid Date Ranges**  
+   - **Test Case ID**: TC_EZ106_006  
+   - **Description**: Submit an invalid date range.  
+   - **Expected Result**: Error message indicating invalid date range should be displayed.
+
+2. **UI Disappearance Issues**  
+   - **Test Case ID**: TC_EZ106_007  
+   - **Description**: Test the UI for disappearance anomalies when switching between dropdown options.  
+   - **Expected Result**: UI remains stable and does not disappear unexpectedly during selections.
+
+
+## Data Validation Testing
+
+1. **Date Format Validation**  
+   - **Test Case ID**: TC_EZ106_008  
+   - **Description**: Test for correct date formats in input fields.  
+   - **Expected Result**: Only valid date formats should be accepted.
+
+2. **Boundary Conditions**  
+   - **Test Case ID**: TC_EZ106_009  
+   - **Description**: Verify the handling of boundary dates (e.g., start of the month, end of the month).  
+   - **Expected Result**: Boundary conditions should be processed without errors.
+
+3. **Special Characters in Dates**  
+   - **Test Case ID**: TC_EZ106_010  
+   - **Description**: Check how the application handles special characters in date inputs.  
+   - **Expected Result**: Application should prompt an error for special characters.
