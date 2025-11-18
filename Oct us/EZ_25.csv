@@ -1,0 +1,6 @@
+Test Case ID, Description, Expected Outcome
+TC_EZ25_001, Phone number with letters (e.g., 123-ABC-4567), Validation error should occur
+TC_EZ25_002, Phone number too short (e.g., 123-45), Validation error should occur
+TC_EZ25_003, Phone number special characters (e.g., 123-!@#-4567), Validation error should occur
+TC_EZ25_004, Phone number with spaces (e.g., 123 456 7890), Validation error should occur
+TC_EZ25_005, Valid phone number (e.g., 123-456-7890), Should not trigger validation error
