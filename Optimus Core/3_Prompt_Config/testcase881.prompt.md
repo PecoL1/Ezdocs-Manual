@@ -184,7 +184,7 @@ TC ID,Test Type,Test Case Name,Description,Action,Expected Result,Test Repositor
  
 **Given User Story:**
 ```
-User Story: As a customer, I want to add ZC-CPL-189-A and ZC-CPL-190-A forms to CPLO product line so that I can comply with regulatory requirements.
+User Story: Verify that the field name should be renamed from “Local Policy Means” to “FoS Hub Master Policy” for Form Interlocking and Hold Harmless Endorsement (Canadian Master Policy) ZC-ZPRO-474-A CW. 
  
 Acceptance Criteria:
 1 .Verify that the field name should be renamed from “Local Policy Means” to “FoS Hub Master Policy” for Form Interlocking and Hold Harmless Endorsement (Canadian Master Policy) ZC-ZPRO-474-A CW. 
