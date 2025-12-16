@@ -33,7 +33,7 @@ Ask the user:
  
 ```
  
-Please provide the User Story file path (e.g., C:\Users\SWATHI.POTHAKAMURI\Gen AI\OptimusCore\1_Base_Repo\User_Story\EZ-904.md): /workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/User Story/EZ-881.prompt.md
+Please provide the User Story file path : /workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/User Story/EZ-881.prompt.md
 ```
  
  
@@ -114,9 +114,9 @@ Generate manual test cases in CSV format based on the user story and acceptance 
  
 6. Write expected results as continuous text WITHOUT numbering, separated by line breaks
  
-7. Reference Navigation_904.md for accurate EZDocs workflow patterns
+7. Reference Navigation_Steps_881.md for accurate EZDocs workflow patterns
  
-8. Use EZ_904_Template.md structure for field mapping and test case structure (reference only, not copy values)
+8. Use Template_881.md structure for field mapping and test case structure (reference only, not copy values)
  
 9. Use forward slashes (/) consistently in all file paths
  
