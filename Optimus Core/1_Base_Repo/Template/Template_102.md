@@ -8,7 +8,7 @@ Actions:1. Initiate Domestic submission
 4."Please fill exchange rate before proceeding."pop up should be displayed once the user clicks on Proceed button
 
 
-Test Repository Path: BAU Jan 2026/CCA-102
+Test Repository Path: BAU Jan 2026/ACW-08
 Status:Todo
-User Story:CCA-102
+User Story:ACW-08
 Priority:Medium/High/Low
