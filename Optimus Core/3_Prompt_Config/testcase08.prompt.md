@@ -198,7 +198,7 @@ TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Reposit
  
 11.Just refer the Template_08.md file. Don't use the content or values present in the Template_08.md file.
  
-12. Please include Positive and Negative Scenarios
+12.Please include Positive and Negative Scenarios
 
-13.
+13.Scope for Domestic and International transactions only.
 ---
