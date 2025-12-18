@@ -1,18 +1,21 @@
 TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority
-ACW-08-TC01,Functional,Exchange Rate mandatory when USD selected,"Verify Exchange Rate is mandatory when currency USD is selected.","Positive scenario:
-1. Login to EZDocs Application and take D&O submission.
-2. Select Product as Public from Product Dropdown.
-3. Select USD from Currency Dropdown.
-4. Leave Exchange Rate field blank.
-5. Fill other mandatory details and click Proceed.
-6. Observe validation popup.
-
-Negative scenario:
-1. Login to EZDocs Application and take D&O submission.
-2. Select Product as Public from Product Dropdown.
-3. Select USD from Currency Dropdown.
-4. Enter a valid Exchange Rate (e.g., 1.25).
-5. Fill other mandatory details and click Proceed.
-6. Verify navigation proceeds to next page without validation error.","Positive: The system displays a validation popup with the message: Please fill exchange rate before proceeding. The user cannot proceed until Exchange Rate is provided.
-
-Negative: When a valid Exchange Rate is provided, the system proceeds to the next page and no validation popup is shown.",/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/User Story/ACW-08.md,Draft,ACW-08,Medium
+ACW-08-1,Functional,Exchange Rate mandatory when USD selected - Domestic - Positive,Verify Exchange Rate accepted and required when USD selected for Domestic transactions,"1. Open the EZDocs New Transaction screen
+2. Select transaction scope: Domestic
+3. Set 'Currency' to 'USD'
+4. Enter a valid 'Exchange Rate' (e.g., 1.25)
+5. Click 'Save' or 'Proceed'","When Currency is 'USD' and a valid Exchange Rate is provided, the transaction saves successfully and no validation errors are shown.",Optimus Core/1_Base_Repo/User Story/ACW-08.md,Ready,ACW-08,High
+ACW-08-2,Functional,Exchange Rate mandatory when USD selected - Domestic - Negative,Verify validation when Exchange Rate is missing for USD in Domestic transactions,"1. Open the EZDocs New Transaction screen
+2. Select transaction scope: Domestic
+3. Set 'Currency' to 'USD'
+4. Leave 'Exchange Rate' blank
+5. Click 'Save' or 'Proceed'","When Currency is 'USD' and the Exchange Rate is blank, a validation error is displayed indicating 'Exchange Rate is required' and the transaction cannot be saved.",Optimus Core/1_Base_Repo/User Story/ACW-08.md,Ready,ACW-08,High
+ACW-08-3,Functional,Exchange Rate mandatory when USD selected - International - Positive,Verify Exchange Rate accepted and required when USD selected for International transactions,"1. Open the EZDocs New Transaction screen
+2. Select transaction scope: International
+3. Set 'Currency' to 'USD'
+4. Enter a valid 'Exchange Rate' (e.g., 1.25)
+5. Click 'Save' or 'Proceed'","When Currency is 'USD' and a valid Exchange Rate is provided for an International transaction, the transaction saves successfully and no validation errors are shown.",Optimus Core/1_Base_Repo/User Story/ACW-08.md,Ready,ACW-08,High
+ACW-08-4,Functional,Exchange Rate mandatory when USD selected - International - Negative,Verify validation when Exchange Rate is missing for USD in International transactions,"1. Open the EZDocs New Transaction screen
+2. Select transaction scope: International
+3. Set 'Currency' to 'USD'
+4. Leave 'Exchange Rate' blank
+5. Click 'Save' or 'Proceed'","When Currency is 'USD' and the Exchange Rate is blank for an International transaction, a validation error is displayed indicating 'Exchange Rate is required' and the transaction cannot be saved.",Optimus Core/1_Base_Repo/User Story/ACW-08.md,Ready,ACW-08,High
