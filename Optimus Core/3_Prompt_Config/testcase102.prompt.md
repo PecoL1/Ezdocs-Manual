@@ -198,7 +198,7 @@ TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Reposit
  
 11.Just refer the Template_102.md file. Don't use the content or values present in the Template_102.md file.
  
-12.Please include Positive and Negative Scenarios
+12.The addition of options in action dropdown will be visible for Complaints Officer not for Customer Care Lead and Customer Care roles.
 
-13.Scope for Complaints Officer only. Not for Customer Care Lead and Customer Care roles.
+13. Please include positive and negative scenarios.
 ---

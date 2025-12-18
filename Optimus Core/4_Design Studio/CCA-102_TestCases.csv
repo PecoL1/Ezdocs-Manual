@@ -1,0 +1,40 @@
+TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority
+CCA-102-1,Functional,Actions dropdown additions when request in Escalated Stage,Verify that when a request is in Escalated stage the Actions dropdown contains 'Escalated Acknowledged' and 'Escalated-Closed',"Positive scenario:
+1. Login as Complaints Officer
+2. Open a request and move it to 'Escalated' stage
+3. Open the 'Actions' dropdown
+4. Verify available options include 'Escalated Acknowledged' and 'Escalated-Closed'
+
+Negative scenario:
+1. Login as Complaints Officer
+2. Open a request in a stage other than 'Escalated'
+3. Open the 'Actions' dropdown
+4. Verify 'Escalated Acknowledged' and 'Escalated-Closed' are not present","Positive: When the request is in 'Escalated' stage, the 'Actions' dropdown contains both 'Escalated Acknowledged' and 'Escalated-Closed'.
+
+Negative: When the request is not in 'Escalated' stage, those two options are not shown in the 'Actions' dropdown.",Optimus Core/1_Base_Repo/User Story/CCA-102.md,Ready,CCA-102,Medium
+CCA-102-2,Functional,Actions dropdown additions when request in Escalated Acknowledged Stage,Verify that when a request is in 'Escalated Acknowledged' stage the Actions dropdown contains 'Escalated Closed',"Positive scenario:
+1. Login as Complaints Officer
+2. Open a request and set its stage to 'Escalated Acknowledged'
+3. Open the 'Actions' dropdown
+4. Verify available options include 'Escalated Closed'
+
+Negative scenario:
+1. Login as Complaints Officer
+2. Open a request in a different stage
+3. Open the 'Actions' dropdown
+4. Verify 'Escalated Closed' is not present","Positive: When the request is in 'Escalated Acknowledged' stage, the 'Actions' dropdown contains 'Escalated Closed'.
+
+Negative: When the request is not in 'Escalated Acknowledged' stage, 'Escalated Closed' is not shown.",Optimus Core/1_Base_Repo/User Story/CCA-102.md,Ready,CCA-102,Medium
+CCA-102-3,Functional,Actions dropdown additions when request in Escalated Closed Stage,Verify that when a request is in 'Escalated Closed' stage the Actions dropdown contains 'Escalated - Acknowledged',"Positive scenario:
+1. Login as Complaints Officer
+2. Open a request and set its stage to 'Escalated Closed'
+3. Open the 'Actions' dropdown
+4. Verify available options include 'Escalated - Acknowledged'
+
+Negative scenario:
+1. Login as Complaints Officer
+2. Open a request in a different stage
+3. Open the 'Actions' dropdown
+4. Verify 'Escalated - Acknowledged' is not present","Positive: When the request is in 'Escalated Closed' stage, the 'Actions' dropdown contains 'Escalated - Acknowledged'.
+
+Negative: When the request is not in 'Escalated Closed' stage, 'Escalated - Acknowledged' is not shown.",Optimus Core/1_Base_Repo/User Story/CCA-102.md,Ready,CCA-102,Medium
