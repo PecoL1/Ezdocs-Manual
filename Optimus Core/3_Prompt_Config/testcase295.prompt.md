@@ -33,7 +33,7 @@ Ask the user:
 
 ``` 
 
-Please provide the User Story file path (e.g., C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\User_Story\EZ_001.md): C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\User_Story\EZ_295.md
+Please provide the User Story file path : /workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/User Story/EZ-295.md
 
 ``` 
 
@@ -49,7 +49,7 @@ Please provide the User Story file path (e.g., C:\Users\SWETHA.DESHPANDE\Manual 
 
 - Write expected results as continuous text WITHOUT numbering 
 
-- Automatically save the CSV file to: `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\4_Design_Studio\EZ_295_TestCases.csv`
+- Automatically save the CSV file to: `/workspaces/Ezdocs-Manual/Optimus Core/4_Design Studio/{filename}_TestCases.csv`
 
 - Confirm completion with message: 
 
@@ -57,7 +57,7 @@ Please provide the User Story file path (e.g., C:\Users\SWETHA.DESHPANDE\Manual 
 
 Test cases generated successfully! 
 
-Output file: C:\Users\SWATHI.POTHAKAMURI\Gen AI\OptimusCore\4_Design_Studio/{filename}_TestCases.csv
+Output file: /workspaces/Ezdocs-Manual/Optimus Core/4_Design Studio/{filename}_TestCases.csv
 Total test cases: {count} 
 
 ``` 
@@ -74,11 +74,11 @@ Total test cases: {count}
 
 **User Story File Path:** Provided by user at runtime 
 
-**Template Reference:** `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\Template\Template_295.md` 
+**Template Reference:** `/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Template/Template_295.md` 
 
-**Navigation Reference:** `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\Reference\navigation_steps_295.md` 
+**Navigation Reference:** `/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Reference/Navigation_Steps_295.md` 
 
-**Output Location:** `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\4_Design_Studio\EZ_295_TestCases.csv` (auto-generated) 
+**Output Location:** `/workspaces/Ezdocs-Manual/Optimus Core/4_Design Studio/{filename}_TestCases.csv` (auto-generated) 
   
 
 --- 
@@ -89,7 +89,7 @@ Total test cases: {count}
 
   
 
-Generate manual test cases in CSV format based on the user story and acceptance criteria. Each test case should follow the template structure and incorporate the EZDocs application navigation flow from navigation_steps_295.md.
+Generate manual test cases in CSV format based on the user story and acceptance criteria. Each test case should follow the template structure and incorporate the EZDocs application navigation flow from Navigation_Steps_295.md.
 
   
 
@@ -113,9 +113,9 @@ Generate manual test cases in CSV format based on the user story and acceptance 
 
 6. Write expected results as continuous text WITHOUT numbering, separated by line breaks 
 
-7. Reference Navigation_904.md for accurate EZDocs workflow patterns 
+7. Reference Navigation_Steps_295.md for accurate EZDocs workflow patterns 
 
-8. Use EZ_295_Template.md structure for field mapping and test case structure (reference only, not copy values) 
+8. Use Template_295.md structure for field mapping and test case structure (reference only, not copy values) 
 
 9. Use forward slashes (/) consistently in all file paths 
 
@@ -133,7 +133,7 @@ Generate manual test cases in CSV format based on the user story and acceptance 
 
 ``` 
 
-TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority 
+TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Scenario Type and Priority 
 
 ``` 
 
@@ -165,7 +165,7 @@ TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Reposit
 
 ```csv 
 
-TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority 
+TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Scenario Type and Priority 
 
 ``` 
 
@@ -193,7 +193,9 @@ TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Reposit
 
 10. Extract filename from user story path correctly for output file naming (e.g., EZ_295.md → EZ-295) 
 
-11.Just refer the EZ_295_Template.md file. Don't use the content or values present in the EZ_295_Template.md file. 
+11.Just refer the Template_295.md file. Don't use the content or values present in the Template_295.md file. 
+
+12. Please include positive,negative scenarios and Boundary Value scenarios.
 
 --- 
 
