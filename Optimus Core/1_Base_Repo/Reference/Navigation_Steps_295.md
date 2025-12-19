@@ -11,5 +11,5 @@ Verify user is able to enter the Percentage
 
 Transactions performed with the scope of Domestic
  New Business
-- Quote, Binder, Policy, MidTerm Transactions
+- Quote, Binder, Policy Transactions
 - Scope: Domestic

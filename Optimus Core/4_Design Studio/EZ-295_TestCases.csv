@@ -1,30 +1,30 @@
 TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Scenario Type and Priority
-EZ-295-1,Functional,"Add a growing table row under Water Damage - Positive","Verify user can add description and amount/percentage in Additional Deductible growing table and that values print in English and French","1. Login to EZDocs application and take a PBR submission
-2. Select the product ""Project Builders Risk"" from product dropdown
-3. Upload the ratar file
-4. Navigate to Coverage -> Extensions Coverages section
-5. Under Water Damage coverage, open the Additional Deductible growing table
-6. Click 'Add Row'
-7. Enter Description: ""Water pipe burst - basement""
-8. Enter Amount: 125.75
-9. Leave Percentage blank (or enter as applicable)
-10. Save the submission
-11. Generate English and French documents","When a row with Description and Amount is added the row is saved successfully. Amount values are rounded to the nearest integer where applicable. The entered Description and rounded Amount appear correctly in both the English and French generated documents.",Optimus Core/1_Base_Repo/User Story/EZ-295.md,Ready,EZ-295,Positive/High
-EZ-295-2,Functional,"Add row validation - Negative","Verify validation when Description is missing or Amount is invalid","1. Login to EZDocs application and take a PBR submission
-2. Select the product ""Project Builders Risk"" from product dropdown
-3. Upload the ratar file
-4. Navigate to Coverage -> Extensions Coverages section
-5. Under Water Damage coverage, open the Additional Deductible growing table
-6. Click 'Add Row'
-7. Leave Description blank
-8. Enter Amount as non-numeric value: ""abc""
-9. Attempt to save the submission","When Description is blank or Amount is non-numeric, the system displays validation errors indicating Description is required and Amount must be numeric. No invalid row is saved and no values appear in generated documents.",Optimus Core/1_Base_Repo/User Story/EZ-295.md,Ready,EZ-295,Negative/High
-EZ-295-3,Functional,"Growing table boundary - Multiple rows and rounding","Verify the growing table supports multiple rows, long descriptions, and rounding of Amount values","1. Login to EZDocs application and take a PBR submission
-2. Select the product ""Project Builders Risk"" from product dropdown
-3. Upload the ratar file
-4. Navigate to Coverage -> Extensions Coverages section
-5. Under Water Damage coverage, open the Additional Deductible growing table
-6. Click 'Add Row' and repeat to add 10 rows
-7. For each row enter a long Description (e.g., 250+ characters) and Amounts with many decimals (e.g., 12.7890, 99.4999)
-8. Save the submission
-9. Generate English and French documents","All added rows are saved and displayed in the growing table. Amount values are rounded to the nearest integer in the UI and in the printed documents. All descriptions and rows appear in both English and French documents; long descriptions are handled per UI rules (displayed or truncated consistently).",Optimus Core/1_Base_Repo/User Story/EZ-295.md,Ready,EZ-295,Boundary/Medium
+EZ-295-1,Functional,"Add a growing table row under Water Damage - Positive","Verify user can add description and amount/percentage in Additional Deductible growing table and that values print in English and French","1. Login to EZDocs application and take a PBR submission.
+2. Select the product 'Project Builders Risk' from product dropdown.
+3. Upload the ratar file.
+4. Navigate to Coverage → Extensions Coverages section.
+5. Under Water Damage coverage, open the Additional Deductible growing table.
+6. Click 'Add Row'.
+7. Enter Description: 'Water pipe burst - basement'.
+8. Enter Amount: 125.75.
+9. Leave Percentage blank (or enter as applicable).
+10. Save the submission.
+11. Preview/Generate English and French documents.","When a row with Description and Amount is added the row is saved successfully. Amount values are rounded to the nearest integer where applicable. The entered Description and rounded Amount appear correctly in both English and French generated documents.",BAU Feb 2026/EZ-295,Todo,EZ-295,Positive/High
+EZ-295-2,Functional,"Add row validation - Negative","Verify validation when Description is missing or Amount is invalid","1. Login to EZDocs application and take a PBR submission.
+2. Select the product 'Project Builders Risk' from product dropdown.
+3. Upload the ratar file.
+4. Navigate to Coverage → Extensions Coverages section.
+5. Under Water Damage coverage, open the Additional Deductible growing table.
+6. Click 'Add Row'.
+7. Leave Description blank.
+8. Enter Amount as non-numeric value: 'abc'.
+9. Attempt to save the submission.","When Description is blank or Amount is non-numeric, the system displays validation errors indicating Description is required and Amount must be numeric. No invalid row is saved and no values appear in generated documents.",BAU Feb 2026/EZ-295,Todo,EZ-295,Negative/High
+EZ-295-3,Functional,"Growing table boundary - Multiple rows and rounding","Verify the growing table supports multiple rows, long descriptions, and rounding of Amount values","1. Login to EZDocs application and take a PBR submission.
+2. Select the product 'Project Builders Risk' from product dropdown.
+3. Upload the ratar file.
+4. Navigate to Coverage → Extensions Coverages section.
+5. Under Water Damage coverage, open the Additional Deductible growing table.
+6. Click 'Add Row' and repeat to add 10 rows.
+7. For each row enter a long Description (e.g., 250+ characters) and Amounts with many decimals (e.g., 12.7890, 99.4999).
+8. Save the submission.
+9. Preview/Generate English and French documents.","All added rows are saved and displayed in the growing table. Amount values are rounded to the nearest integer in the UI and in the printed documents. All descriptions and rows appear in both English and French documents; long descriptions are handled per UI rules (displayed or truncated consistently).",BAU Feb 2026/EZ-295,Todo,EZ-295,Boundary/Medium
