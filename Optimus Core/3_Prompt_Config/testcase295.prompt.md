@@ -1,0 +1,200 @@
+--- 
+
+agent : agent 
+
+tools:
+-search/codebase
+
+- edit/editFiles 
+
+- search 
+
+description: Generate manual test cases in CSV format based on user story and acceptance criteria 
+
+--- 
+
+  
+
+# Manual Test Case Generation Prompt 
+
+  
+
+## Execution Workflow 
+
+  
+
+When this prompt is executed, follow these steps: 
+
+  
+
+### Step 1: Prompt for User Story Path 
+
+Ask the user: 
+
+``` 
+
+Please provide the User Story file path (e.g., C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\User_Story\EZ_001.md): C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\User_Story\EZ_295.md
+
+``` 
+
+  
+
+### Step 2: Generate Test Cases and Save CSV File 
+
+- For each acceptance criterion/scenario in the user story, generate one test case 
+
+- Create a CSV file with proper structure and multi-line cell formatting (wrap in double quotes) 
+
+- Number actions sequentially (1., 2., 3., etc.) with line breaks between steps 
+
+- Write expected results as continuous text WITHOUT numbering 
+
+- Automatically save the CSV file to: `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\4_Design_Studio\EZ_295_TestCases.csv`
+
+- Confirm completion with message: 
+
+``` 
+
+Test cases generated successfully! 
+
+Output file: C:\Users\SWATHI.POTHAKAMURI\Gen AI\OptimusCore\4_Design_Studio/{filename}_TestCases.csv
+Total test cases: {count} 
+
+``` 
+
+  
+
+--- 
+
+  
+
+## Input Requirements 
+
+  
+
+**User Story File Path:** Provided by user at runtime 
+
+**Template Reference:** `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\Template\Template_295.md` 
+
+**Navigation Reference:** `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\Reference\navigation_steps_295.md` 
+
+**Output Location:** `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\4_Design_Studio\EZ_295_TestCases.csv` (auto-generated) 
+  
+
+--- 
+
+  
+
+## Goal 
+
+  
+
+Generate manual test cases in CSV format based on the user story and acceptance criteria. Each test case should follow the template structure and incorporate the EZDocs application navigation flow from navigation_steps_295.md.
+
+  
+
+--- 
+
+  
+
+## Important Notes 
+
+  
+
+1. Generate exactly one test case per acceptance criterion in the user story 
+
+2. Include only relevant navigation steps based on the specific acceptance criterion scope (Quote only, Binder only, Policy only, or MidTerm only if specified) 
+
+3. Keep test cases atomic and focused on specific validation scenarios 
+
+4. Ensure proper CSV escaping for special characters and multi-line cells (use double quotes) 
+
+5. Number actions sequentially (1., 2., 3., etc.) with line breaks between steps 
+
+6. Write expected results as continuous text WITHOUT numbering, separated by line breaks 
+
+7. Reference Navigation_904.md for accurate EZDocs workflow patterns 
+
+8. Use EZ_295_Template.md structure for field mapping and test case structure (reference only, not copy values) 
+
+9. Use forward slashes (/) consistently in all file paths 
+
+10. Extract filename from user story path correctly for output file naming (e.g., EZ_295.md → EZ-295) 
+
+--- 
+
+  
+
+## Output Format: CSV Structure 
+
+  
+
+**CSV Headers:** 
+
+``` 
+
+TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority 
+
+``` 
+
+  
+
+**CSV Format Rules:** 
+
+1. Each test case is a single row in the CSV 
+
+2. All actions for a test case are combined in the "Actions" column with line breaks between each step 
+
+3. All expected results for a test case are combined in the "Expected Results" column as continuous text 
+
+4. Wrap multi-line cells (Actions and Expected Results) in double quotes 
+
+5. Escape commas within fields using double quotes 
+
+6. Escape double quotes within fields by doubling them ("") 
+
+7. Number actions sequentially (1., 2., 3., etc.) 
+
+8. Expected results should NOT have numbering - keep as plain text 
+
+9. Use actual line breaks within quoted cells or \n for separating action steps 
+
+  
+
+**Example CSV Output:** 
+
+```csv 
+
+TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority 
+
+``` 
+
+--- 
+
+  
+
+1. Generate exactly one test case per acceptance criterion in the user story 
+
+2. Include only relevant navigation steps based on the specific acceptance criterion scope 
+
+3. Keep test cases atomic and focused on specific validation scenarios 
+
+4. Ensure proper CSV escaping for special characters and multi-line cells (use double quotes) 
+
+5. Number actions sequentially (1., 2., 3., etc.) with line breaks between steps 
+
+6. Write expected results as continuous text WITHOUT numbering, separated by line breaks 
+
+7. Reference navigation_steps.md for accurate EZDocs workflow patterns 
+
+8. Use Template.md structure for field mapping and test case structure 
+
+9. Use forward slashes (/) consistently in all file paths 
+
+10. Extract filename from user story path correctly for output file naming (e.g., EZ_295.md → EZ-295) 
+
+11.Just refer the EZ_295_Template.md file. Don't use the content or values present in the EZ_295_Template.md file. 
+
+--- 
+
+
