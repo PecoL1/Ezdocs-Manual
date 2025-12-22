@@ -4,7 +4,7 @@ ACW-08-1,Functional,Exchange Rate mandatory when USD selected - Domestic - Posit
 3. Set 'Currency' to 'USD'
 4. Enter a valid 'Exchange Rate' (e.g., 1.25)
 5. Click 'Save' or 'Proceed'","When Currency is 'USD' and a valid Exchange Rate is provided, the transaction saves successfully and no validation errors are shown.",Optimus Core/1_Base_Repo/User Story/ACW-08.md,Ready,ACW-08,High
-ACW-08-2,Functional,Exchange Rate mandatory when USD selected - Domestic - Negative,Verify validation when Exchange Rate is missing for USD in Domestic transactions,"1. Open the EZDocs New Transaction screen
+ACW-08-2, Functional,Exchange Rate mandatory when USD selected - Domestic - Negative,Verify validation when Exchange Rate is missing for USD in Domestic transactions,"1. Open the EZDocs New Transaction screen
 2. Select transaction scope: Domestic
 3. Set 'Currency' to 'USD'
 4. Leave 'Exchange Rate' blank
