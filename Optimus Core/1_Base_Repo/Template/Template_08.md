@@ -5,7 +5,7 @@ Description:The objective of this test case "Please fill exchange rate before pr
 Actions:1. Initiate Domestic submission
 2.Select product as Public Select from product dropdown and fill the mandatory Data
 3.Proceed to Next page
-4."Please fill exchange rate before proceeding."pop up should be displayed once the user clicks on Proceed button
+4."Please fill exchange rate before proceeding. "pop up should be displayed once the user clicks on Proceed button
 
 
 Test Repository Path: BAU Jan 2026/ACW-08
