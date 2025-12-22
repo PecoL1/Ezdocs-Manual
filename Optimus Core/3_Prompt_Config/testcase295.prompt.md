@@ -7,7 +7,7 @@ tools:
 
 - edit/editFiles 
 
-- search 
+- search
 
 description: Generate manual test cases in CSV format based on user story and acceptance criteria 
 
