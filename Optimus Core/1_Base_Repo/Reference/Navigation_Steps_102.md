@@ -3,7 +3,7 @@
 3. Click on Escalated tab 
 4. Select the escalated status record with complaint type
 5. In Actions dropdown verify Escalated Acknowledged and Escalated-Closed options are visible
-6. Select the escalated Acknowledged status record with complaint typeEscalated Acknowledged and Escalated-Closed options
+6. Select the escalated Acknowledged status record with complaint type Escalated Acknowledged and Escalated-Closed options
 7. In Actions dropdown verify escalated Closed option is visible
 8. Select the escalated Closed status record with complaint type
 9. In Actions dropdown verify escalated Acknowledged option is visible
