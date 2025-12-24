@@ -74,9 +74,9 @@ Total test cases: {count}
  
 **User Story File Path:** Provided by user at runtime
  
-**Template Reference:** `/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Template/Template_102.md`
+**Template Reference:** `/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Template/Template_1424.md`
  
-**Navigation Reference:** `//workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Reference/Navigation_Steps_102.md`
+**Navigation Reference:** `/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Reference/Navigation_Steps_1424.md`
  
 **Output Location:** `/workspaces/Ezdocs-Manual/Optimus Core/4_Design Studio/{filename}_TestCases.csv` (auto-generated)
  
@@ -90,7 +90,7 @@ Total test cases: {count}
  
  
  
-Generate manual test cases in CSV format based on the user story and acceptance criteria. Each test case should follow the template structure and incorporate the CCA application navigation flow from Navigation_Steps_102.md.
+Generate manual test cases in CSV format based on the user story and acceptance criteria. Each test case should follow the template structure and incorporate the CCA application navigation flow from Navigation_Steps_1424.md.
  
  
  
