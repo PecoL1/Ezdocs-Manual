@@ -114,13 +114,13 @@ Generate manual test cases in CSV format based on the user story and acceptance 
  
 6. Write expected results as continuous text WITHOUT numbering, separated by line breaks
  
-7. Reference Navigation_Steps_102.md for accurate EZDocs workflow patterns
+7. Reference Navigation_Steps_1424.md for accurate EZDocs workflow patterns
  
-8. Use Template_102.md structure for field mapping and test case structure (reference only, not copy values)
+8. Use Template_1424.md structure for field mapping and test case structure (reference only, not copy values)
  
 9. Use forward slashes (/) consistently in all file paths
  
-10. Extract filename from user story path correctly for output file naming (e.g., CCA-102.md → CCA-102)
+10. Extract filename from user story path correctly for output file naming (e.g., EDD-1424.md → EDD-1424)
  
 ---
  
@@ -188,15 +188,15 @@ TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Reposit
  
 6. Write expected results as continuous text WITHOUT numbering, separated by line breaks
  
-7. Reference navigation_steps.md for accurate CCA workflow patterns
+7. Reference navigation_steps.md for accurate EDD workflow patterns
  
 8. Use Template.md structure for field mapping and test case structure
  
 9. Use forward slashes (/) consistently in all file paths
  
-10. Extract filename from user story path correctly for output file naming (e.g., CCA-102.md → CCA-102)
+10. Extract filename from user story path correctly for output file naming (e.g., EDD-1424.md → DD-1424)
  
-11.Just refer the Template_102.md file. Don't use the content or values present in the Template_102.md file.
+11.Just refer the Template_1424.md file. Don't use the content or values present in the Template_1424.md file.
  
 12.The addition of options in action dropdown will be visible for Complaints Officer not for Customer Care Lead and Customer Care roles.
 
