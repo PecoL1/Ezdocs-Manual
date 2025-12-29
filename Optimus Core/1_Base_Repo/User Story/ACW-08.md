@@ -1,1 +1,1 @@
-Exchange Rate field should be mandatory if the user selects USD as currency.
+Exchnnge Rate field should be mandatory if the user selects USD as currency.
