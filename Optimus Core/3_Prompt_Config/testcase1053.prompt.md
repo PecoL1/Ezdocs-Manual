@@ -74,9 +74,9 @@ Total test cases: {count}
  
 **User Story File Path:** Provided by user at runtime
  
-**Template Reference:** `/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Template/Template_1424.md`
+**Template Reference:** `/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Template/Template_1053.md`
  
-**Navigation Reference:** `/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Reference/Navigation_Steps_1424.md`
+**Navigation Reference:** `/workspaces/Ezdocs-Manual/Optimus Core/1_Base_Repo/Reference/Navigation_Steps_1053.md`
  
 **Output Location:** `/workspaces/Ezdocs-Manual/Optimus Core/4_Design Studio/{filename}_TestCases.csv` (auto-generated)
  
@@ -90,7 +90,7 @@ Total test cases: {count}
  
  
  
-Generate manual test cases in CSV format based on the user story and acceptance criteria. Each test case should follow the template structure and incorporate the CCA application navigation flow from Navigation_Steps_1424.md.
+Generate manual test cases in CSV format based on the user story and acceptance criteria. Each test case should follow the template structure and incorporate the CCA application navigation flow from Navigation_Steps_1053.md.
  
  
  
@@ -120,7 +120,7 @@ Generate manual test cases in CSV format based on the user story and acceptance 
  
 9. Use forward slashes (/) consistently in all file paths
  
-10. Extract filename from user story path correctly for output file naming (e.g., EDD-1424.md → EDD-1424)
+10. Extract filename from user story path correctly for output file naming (e.g., EZ-1053.md → EZ-1053)
  
 ---
  
@@ -188,17 +188,16 @@ TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Reposit
  
 6. Write expected results as continuous text WITHOUT numbering, separated by line breaks
  
-7. Reference navigation_steps.md for accurate EDD workflow patterns
+7. Reference navigation_steps.md for accurate EZdocs workflow patterns
  
 8. Use Template.md structure for field mapping and test case structure
  
 9. Use forward slashes (/) consistently in all file paths
  
-10. Extract filename from user story path correctly for output file naming (e.g., EDD-1424.md → DD-1424)
+10. Extract filename from user story path correctly for output file naming (e.g., EZ-1053.md → EZ-1053)
  
-11.Just refer the Template_1424.md file. Don't use the content or values present in the Template_1424.md file.
+11.Just refer the Template_1424.md file. Don't use the content or values present in the Template_1053.md file.
  
-12.The addition of options in action dropdown will be visible for Complaints Officer not for Customer Care Lead and Customer Care roles.
+12.Updated URL should be updated for all three roles including Admin, user and Support
 
-13. Please include positive and negative scenarios.
 ---
