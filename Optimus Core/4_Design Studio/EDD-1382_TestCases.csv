@@ -1,0 +1,5 @@
+TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority
+TC_1,Manual,TC01_Ensure that Filter option and export to excel option is visible in Draft Overview admin tab,Verify that Filter option and export to excel option is visible in Draft Overview admin tab.,"1. Login to ZED Application and sign in with sso
+2. Click on Draft Overview Admin tab
+3. Verify Filter Option is visible
+4. Verify Export to Excel option is visible",Filter option and export to excel option is visible in Draft Overview admin tab,EDD March 2026/EDD-1382,Todo,EDD-1382,Medium
